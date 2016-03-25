@@ -59,6 +59,7 @@
     <ClCompile Include="..\..\..\src\psnames\psmodule.c" />
     <ClCompile Include="..\..\..\src\raster\raster.c" />
     <ClCompile Include="..\..\..\src\sfnt\sfnt.c" />
+    <ClCompile Include="..\..\..\src\smooth\ftgrays.c" />
     <ClCompile Include="..\..\..\src\smooth\ftsmooth.c" />
     <ClCompile Include="..\..\..\src\truetype\truetype.c" />
     <ClCompile Include="..\..\..\src\type1\type1.c" />
@@ -73,6 +74,7 @@
     <ClInclude Include="..\..\..\include\freetype\config\ftoption.h" />
     <ClInclude Include="..\..\..\include\freetype\config\ftstdlib.h" />
     <ClInclude Include="..\..\..\include\ft2build.h" />
+    <ClInclude Include="..\..\..\src\smooth\ftgrays.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{262b016e-e2df-40f7-bc58-3beb000d6229}</ProjectGuid>

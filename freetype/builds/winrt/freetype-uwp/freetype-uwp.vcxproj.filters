@@ -130,6 +130,9 @@
     <ClCompile Include="..\..\..\src\winfonts\winfnt.c">
       <Filter>src\FT_MODULES</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\src\smooth\ftgrays.c">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\include\ft2build.h">
@@ -149,6 +152,9 @@
     </ClInclude>
     <ClInclude Include="..\..\..\include\freetype\config\ftmodule.h">
       <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\smooth\ftgrays.h">
+      <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
